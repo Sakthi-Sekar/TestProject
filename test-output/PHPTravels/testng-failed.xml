@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [PHPTravels]" guice-stage="DEVELOPMENT">
+  <parameter name="browserType" value="chrome"/>
+  <test thread-count="5" name="footer(failed)">
+    <classes>
+      <class name="com.org.test.testscripts.PhpTravels">
+        <methods>
+          <include name="quitBrowser"/>
+          <include name="homePage"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.org.test.testscripts.PhpTravels -->
+    </classes>
+  </test> <!-- footer(failed) -->
+  <test thread-count="5" name="contentmenu(failed)">
+    <classes>
+      <class name="com.org.test.testscripts.PhpTravels">
+        <methods>
+          <include name="quitBrowser"/>
+          <include name="homePage"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.org.test.testscripts.PhpTravels -->
+    </classes>
+  </test> <!-- contentmenu(failed) -->
+</suite> <!-- Failed suite [PHPTravels] -->

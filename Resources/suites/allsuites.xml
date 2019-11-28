@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="PHPTravels" >
+
+<parameter name="browserType" value="chrome"  />
+  <test name="footer" thread-count="5">
+	 <classes>
+	  <class name="com.org.test.testscripts.PhpTravels"/>  
+	 </classes>
+   </test>
+   
+  <test name="contentmenu" thread-count="5">
+     <classes>
+       <class name="com.org.test.testscripts.PhpTravels"/>
+     </classes>
+   </test>
+</suite> <!-- Suite1 -->
